@@ -69,6 +69,60 @@ a
   color: #f00;
 }
 
+/* HEADER STYLES */
+.header
+{
+  background-color: #aaa;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.header-nav
+{
+  float: right;
+  padding: 5.5vh 60px 0 0;
+}
+
+.header-nav > li
+{
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.header-nav a
+{
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-nav a:hover,
+.header-nav a:active
+{
+  color: #ed6e2f;
+}
+
+.header-nav > li:first-child a:hover
+{
+  color: #fff;
+}
+
+.header-logo
+{
+  bottom: 50px;
+  position: absolute;
+}
+
+
+.header-logo:hover, .header-logo:active
+{
+  opacity: 0.5;
+}
+
+
 /* HERO STYLES */
 .full-hero
 {
